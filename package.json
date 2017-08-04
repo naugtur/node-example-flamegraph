@@ -1,10 +1,13 @@
 {
   "name": "flame-graph-exercise",
   "version": "1.0.0",
-  "description": "## Preparation",
-  "main": "app.js",
+  "private": true,
   "scripts": {
     "start": "node --perf-basic-prof-only-functions app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naugtur/node-example-flamegraph.git"
   },
   "author": "naugtur",
   "license": "ISC",
